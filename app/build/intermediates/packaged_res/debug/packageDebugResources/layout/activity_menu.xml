@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textStyle="bold"
+            android:textSize="30dp"></TextView>
+        <ImageView
+            android:id="@+id/imgSettings"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="230dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/settings"></ImageView>
+        <ImageView
+            android:id="@+id/imgSearch"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/search"></ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="@drawable/edittext_bg">
+        <ImageView
+            android:id="@+id/imgUser"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/user"></ImageView>
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="30dp"></TextView>
+        <ImageView
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/down"></ImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lối tắt của bạn"
+        android:textSize="18dp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/boy"></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nguyen van a"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/edittext_bg"
+            >
+
+            <ImageView
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/bookmark">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvSaved"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đã lưu"
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/edittext_bg"
+            >
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/friend">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvFriends"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bạn bè"
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/edittext_bg"
+            >
+
+            <ImageView
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/clapper">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvMovies"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thước phim"
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/edittext_bg"
+            >
+
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:background="@drawable/feed">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvFeed"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bảng feed"
+                android:textSize="18dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Xem thêm"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/edittext_bg"
+        android:textAlignment="center">
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/question"></ImageView>
+        <TextView
+            android:id="@+id/tvHelp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trợ giúp và hỗ trợ"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+        <ImageView
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/down"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/settings"></ImageView>
+        <TextView
+            android:id="@+id/tvPrivacy"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cài đặt và quyền riêng tư"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+        <ImageView
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/down"></ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Đăng xuất"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/edittext_bg"
+        android:textAlignment="center">
+    </TextView>
+
+</LinearLayout>
+
+
+
+

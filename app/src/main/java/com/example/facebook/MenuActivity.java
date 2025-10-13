@@ -33,7 +33,10 @@ public class MenuActivity extends AppCompatActivity {
 
         tvUsername.setText("Nguyễn Văn A");
 
-
+        imgUser.setOnClickListener(v ->{
+            Intent intent = new Intent(MenuActivity.this, ProfileActivity.class);
+            startActivity(intent);
+        });
         imgSettings.setOnClickListener(v -> {
 
             Intent intent = new Intent(MenuActivity.this, SettingsActivity.class);
@@ -77,7 +80,6 @@ public class MenuActivity extends AppCompatActivity {
         });
 
         tvLogout.setOnClickListener(v -> {
-            // Quay lại màn hình đăng nhập
             Intent intent = new Intent(MenuActivity.this, MainActivity.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);

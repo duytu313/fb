@@ -1,0 +1,426 @@
+[
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_create_story.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_create_story.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_notifications.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_notifications.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_boy.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/boy.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_emoji.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/emoji.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_man.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/man.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_reels.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_reels.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_home.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_messengers.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_messengers.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_profile.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_woman.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/woman.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_settings.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_user.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/user.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_share.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/share.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_story_progress_bar.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/story_progress_bar.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_down.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/down.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_edittext_bg.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/edittext_bg.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_instagram.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/instagram.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_qrcode.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/qrcode.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_bookmark.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/bookmark.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_news.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/news.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_create_post.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_create_post.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_graduation.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/graduation.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.facebook.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_ai.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/ai.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_clapper.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/clapper.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_friend.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/friend.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_pill_background.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/pill_background.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_plus.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/plus.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_login.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_ic_search.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_menu.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/menu.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_feed.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/feed.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/color_nav_item_color.xml.flat",
+        "source": "com.example.facebook.app-main-37:/color/nav_item_color.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_friends.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/friends.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_profile.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/profile.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_like.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/like.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_music.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/music.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_messenger.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/messenger.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_reset_password.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_reset_password.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_reel.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/reel.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_story.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_story.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_privacy.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_privacy.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_help.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_help.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_facebook.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_question.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/question.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_search.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_grandmother.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/grandmother.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_smiling.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/smiling.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_surprised.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/surprised.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_option.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/option.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_register.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_play.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/play.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_edit.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/edit.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_more.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/more.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_settings.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/settings.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_home.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/home.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.facebook.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_angry.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/angry.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_love.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/love.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_forgot_password.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_photo.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/photo.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.facebook.app-main-37:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_create_note.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_create_note.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_pen.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/pen.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_menu.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/menu_post_options_menu.xml.flat",
+        "source": "com.example.facebook.app-main-37:/menu/post_options_menu.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_search.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/search.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_notes.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/notes.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_gemini.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_gemini.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_chat.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/chat.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_facebooklogo.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/facebooklogo.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_camera.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/camera.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_background.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/background.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_saved_posts.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_saved_posts.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_sad.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/sad.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_create_film.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_create_film.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/menu_bottom_nav_messenger.xml.flat",
+        "source": "com.example.facebook.app-main-37:/menu/bottom_nav_messenger.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_location.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/location.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_video.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/video.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.facebook.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_notifications.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/notifications.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_white.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/white.jpg"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_tag.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/tag.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_friends.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_friends.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_recycle.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/recycle.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_comments.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/comments.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_button_background.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/button_background.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_buttons_background.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/buttons_background.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_exit.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/exit.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_arrow.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/arrow.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_locations.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/locations.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_privacy.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/privacy.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_image.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/image.png"
+    }
+]
