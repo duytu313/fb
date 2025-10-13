@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#161515"
-    android:orientation="vertical"
     android:padding="10dp">
-
-
     <LinearLayout
-        android:layout_width="match_parent"
+        android:id="@+id/header"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
             android:id="@+id/tvForYou"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="Dành cho bạn"
-            android:textColor="#ffffff"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textAlignment="center"/>
 
@@ -28,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Khám phá"
-            android:textColor="#ffffff"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:layout_marginStart="10dp"
             android:textAlignment="center"/>
@@ -38,92 +41,113 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
-            android:background="@drawable/ic_search"/>
+            android:src="@drawable/ic_search"/>
 
         <ImageView
             android:id="@+id/imgUserProfile"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
-            android:background="@drawable/user"/>
-
+            android:src="@drawable/img1"
+            android:background="@drawable/circle_shape"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"/>
     </LinearLayout>
 
 
-    <LinearLayout
-        android:id="@+id/sideButtons"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/postContainer"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="end"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="20dp"
+        android:background="#222222"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        >
 
         <ImageView
-            android:id="@+id/btnLike"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@drawable/like"/>
-
-        <ImageView
-            android:id="@+id/btnComment"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/comments"/>
-
-        <ImageView
-            android:id="@+id/btnShare"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/share"/>
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp">
+            android:id="@+id/imgPostUser"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/circle_shape"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:id="@+id/userInfo"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:orientation="horizontal"
-            android:gravity="center_vertical">
-
-            <ImageView
-                android:id="@+id/imgPostUser"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/user"/>
+            app:layout_constraintEnd_toStartOf="@id/sideButtons"
+            app:layout_constraintStart_toEndOf="@id/imgPostUser"
+            app:layout_constraintTop_toTopOf="@id/imgPostUser">
 
             <TextView
                 android:id="@+id/tvPostUsername"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="user name"
+                android:text="Username"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
-                android:textColor="#ffffff"
-                android:layout_marginStart="10dp"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvFollow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
                 android:text="Theo dõi"
-                android:textSize="18sp"
-                android:textColor="#ffffff"
-                android:layout_marginStart="10dp"/>
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/tvPostContent"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Nội dung"
-            android:textColor="#ffffff"
-            android:layout_marginTop="10dp"/>
-    </LinearLayout>
+            android:layout_marginTop="10dp"
+            android:text="Nội dung bài đăng..."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@id/sideButtons"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgPostUser" />
+        <LinearLayout
+            android:id="@+id/sideButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/imgPostUser">
 
-</LinearLayout>
+            <ImageView
+                android:id="@+id/btnLike"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/like" />
+
+            <ImageView
+                android:id="@+id/btnComment"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/comments" />
+
+            <ImageView
+                android:id="@+id/btnShare"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/share" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
