@@ -47,7 +47,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-
-    // ⚠️ Xóa dòng này để tránh trùng lặp
-    // implementation("com.google.android.material:material:1.12.0")
 }
