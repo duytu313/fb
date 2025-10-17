@@ -107,6 +107,9 @@
         <activity
             android:name="com.example.facebook.CommentActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.facebook.StoryDetailActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

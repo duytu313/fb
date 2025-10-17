@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:background="#161515"
     android:padding="10dp">
+
     <LinearLayout
         android:id="@+id/header"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:gravity="center_vertical"
-        app:layout_constraintBaseline_toTopOf="parent"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
@@ -22,38 +23,37 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Dành cho bạn"
+            android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textAlignment="center"/>
+            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/tvExplore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Khám phá"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
             android:layout_marginStart="10dp"
-            android:textAlignment="center"/>
+            android:text="Khám phá"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
 
         <ImageView
             android:id="@+id/imgSearch"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
-            android:src="@drawable/ic_search"/>
+            android:src="@drawable/ic_search" />
 
         <ImageView
             android:id="@+id/imgUserProfile"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
-            android:src="@drawable/img1"
             android:background="@drawable/circle_shape"
             android:clipToOutline="true"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/img1" />
     </LinearLayout>
-
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/postContainer"
@@ -62,10 +62,9 @@
         android:layout_marginTop="20dp"
         android:background="#222222"
         android:padding="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
         app:layout_constraintStart_toStartOf="parent"
-        >
+        app:layout_constraintEnd_toEndOf="parent">
 
         <ImageView
             android:id="@+id/imgPostUser"
@@ -74,25 +73,24 @@
             android:background="@drawable/circle_shape"
             android:clipToOutline="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/img1"
+            android:src="@drawable/img13"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
         <LinearLayout
             android:id="@+id/userInfo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:orientation="horizontal"
-            app:layout_constraintEnd_toStartOf="@id/sideButtons"
             app:layout_constraintStart_toEndOf="@id/imgPostUser"
+            app:layout_constraintEnd_toStartOf="@id/sideButtons"
             app:layout_constraintTop_toTopOf="@id/imgPostUser">
 
             <TextView
                 android:id="@+id/tvPostUsername"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Username"
+                android:text="Tran Thi D"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -112,12 +110,24 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Nội dung bài đăng..."
+            android:text="Nội dung..."
             android:textColor="#FFFFFF"
             android:textSize="16sp"
-            app:layout_constraintEnd_toStartOf="@id/sideButtons"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/sideButtons"
             app:layout_constraintTop_toBottomOf="@id/imgPostUser" />
+
+
+        <VideoView
+            android:id="@+id/videoPost"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="#000"
+            app:layout_constraintTop_toBottomOf="@id/tvPostContent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/sideButtons" />
+
         <LinearLayout
             android:id="@+id/sideButtons"
             android:layout_width="wrap_content"
@@ -129,21 +139,21 @@
 
             <ImageView
                 android:id="@+id/btnLike"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:src="@drawable/like" />
 
             <ImageView
                 android:id="@+id/btnComment"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="15dp"
                 android:src="@drawable/comments" />
 
             <ImageView
                 android:id="@+id/btnShare"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_marginTop="15dp"
                 android:src="@drawable/share" />
         </LinearLayout>

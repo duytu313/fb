@@ -1,168 +1,115 @@
 package com.example.facebook;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-import android.widget.Toast;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-import android.view.MenuItem;
-import android.view.View;
 import android.widget.PopupMenu;
+import android.widget.TextView;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private TextView postUser, postContent,create_post;
-    private ImageView postImage,profile,search,message,more,create_story;
+    private TextView textView;
+    private ImageView more, search, message;
     private BottomNavigationView bottomNavigationView;
-    private FrameLayout maxstory;
 
-    private LinearLayout comments;
+    private RecyclerView storiesRecyclerView, postsRecyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        comments = findViewById(R.id.comments);
-        maxstory = findViewById(R.id.maxstory);
-        create_story = findViewById(R.id.create_story);
-        create_post = findViewById(R.id.create_post);
-        message = findViewById(R.id.message);
+        initViews();
+        setupHeaderClicks();
+        setupBottomNavigation();
+        setupStories();
+        setupPosts();
+    }
+
+    private void initViews() {
+        textView = findViewById(R.id.textView);
         more = findViewById(R.id.more);
-        profile = findViewById(R.id.profile);
         search = findViewById(R.id.search);
-        postUser = findViewById(R.id.post_user);
-        postContent = findViewById(R.id.post_content);
-        postImage = findViewById(R.id.post_image);
+        message = findViewById(R.id.message);
+
         bottomNavigationView = findViewById(R.id.bottomNavigation);
+        storiesRecyclerView = findViewById(R.id.storiesRecyclerView);
+        postsRecyclerView = findViewById(R.id.postsRecyclerView);
+    }
 
+    private void setupHeaderClicks() {
+        search.setOnClickListener(v -> startActivity(new Intent(this, SearchActivity.class)));
+        message.setOnClickListener(v -> startActivity(new Intent(this, MessengersActivity.class)));
 
-        postUser.setText("Nguyễn thị C");
-        postContent.setText("Buổi chiều vui vẻ!");
-        postImage.setImageResource(R.drawable.img4);
+        more.setOnClickListener(v -> {
+            PopupMenu popupMenu = new PopupMenu(HomeActivity.this, more);
+            popupMenu.getMenuInflater().inflate(R.menu.post_options_menu, popupMenu.getMenu());
 
+            popupMenu.setOnMenuItemClickListener(item -> {
+                int id = item.getItemId();
+                if (id == R.id.action_post) {
+                    startActivity(new Intent(this, CreatePostActivity.class));
+                } else if (id == R.id.action_news) {
+                    startActivity(new Intent(this, CreateStoryActivity.class));
+                } else if (id == R.id.action_film) {
+                    startActivity(new Intent(this, CreateFilmActivity.class));
+                } else if (id == R.id.action_live) {
+                    startActivity(new Intent(this, LiveStreamActivity.class));
+                } else if (id == R.id.action_note) {
+                    startActivity(new Intent(this, CreateNoteActivity.class));
+                } else if (id == R.id.action_ai) {
+                    startActivity(new Intent(this, GeminiActivity.class));
+                }
+                return true;
+            });
+            popupMenu.show();
+        });
+    }
 
+    private void setupBottomNavigation() {
         bottomNavigationView.setOnItemSelectedListener(item -> {
             int id = item.getItemId();
-
-            if (id == R.id.nav_home) {
-                Intent intent = new Intent(HomeActivity.this, HomeActivity.class);
-                startActivity(intent);
-                return true;
-            } else if (id == R.id.nav_friends) {
-                Intent intent = new Intent(HomeActivity.this, FriendsActivity.class);
-                startActivity(intent);
-                return true;
-            } else if (id == R.id.nav_watch) {
-                Intent intent = new Intent(HomeActivity.this, VideoActivity.class);
-                startActivity(intent);
-                return true;
-            } else if (id == R.id.nav_notifications) {
-                Intent intent = new Intent(HomeActivity.this, NotificationsActivity.class);
-                startActivity(intent);
-                return true;
-            } else if (id == R.id.nav_menu) {
-                Intent intent = new Intent(HomeActivity.this, MenuActivity.class);
-                startActivity(intent);
-                return true;
-            }
-
+            if (id == R.id.nav_home) return true;
+            else if (id == R.id.nav_friends) startActivity(new Intent(this, FriendsActivity.class));
+            else if (id == R.id.nav_watch) startActivity(new Intent(this, VideoActivity.class));
+            else if (id == R.id.nav_notifications) startActivity(new Intent(this, NotificationsActivity.class));
+            else if (id == R.id.nav_menu) startActivity(new Intent(this, MenuActivity.class));
             return false;
         });
+    }
 
-        profile.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, ProfileActivity.class);
-            startActivity(intent);
-        });
+    private void setupStories() {
+        List<Story> stories = new ArrayList<>();
+        stories.add(new Story(R.drawable.img1, "Tạo tin", true));
+        stories.add(new Story(R.drawable.img2, "Nguyễn Văn A", false));
+        stories.add(new Story(R.drawable.img3, "Nguyễn Văn B", false));
+        stories.add(new Story(R.drawable.img6, "Nguyễn Văn C", false));
 
+        StoriesAdapter storiesAdapter = new StoriesAdapter(stories, this); // truyền context để xử lý click
+        LinearLayoutManager layoutManager =
+                new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        storiesRecyclerView.setLayoutManager(layoutManager);
+        storiesRecyclerView.setAdapter(storiesAdapter);
+    }
 
+    private void setupPosts() {
+        List<Post> posts = new ArrayList<>();
+        posts.add(new Post(R.drawable.img3, "Nguyễn Văn A", "Buổi chiều vui vẻ!", R.drawable.img17));
+        posts.add(new Post(R.drawable.img9, "Nguyễn Văn B", "Ăn trưa ngon quá!", R.drawable.img4));
+        posts.add(new Post(R.drawable.img20, "Nguyễn Văn C", "Chơi thể thao cuối tuần", R.drawable.img22));
 
-        search.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, SearchActivity.class);
-            startActivity(intent);
-        });
-
-
-        message.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, MessengersActivity.class);
-            startActivity(intent);
-        });
-
-
-
-
-        more.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                PopupMenu popupMenu = new PopupMenu(HomeActivity.this, v);
-                popupMenu.getMenuInflater().inflate(R.menu.post_options_menu, popupMenu.getMenu());
-
-                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-                    @Override
-                    public boolean onMenuItemClick(MenuItem item) {
-                        int id = item.getItemId();
-
-                        if (id == R.id.action_post) {
-                            Intent intent = new Intent(HomeActivity.this, CreatePostActivity.class);
-                            startActivity(intent);
-                            return true;
-                        } else if (id == R.id.action_news) {
-                            Intent intent = new Intent(HomeActivity.this, CreateStoryActivity.class);
-                            startActivity(intent);
-                            return true;
-                        } else if (id == R.id.action_film) {
-                            Intent intent = new Intent(HomeActivity.this, CreateFilmActivity.class);
-                            startActivity(intent);
-                            return true;
-                        } else if (id == R.id.action_live) {
-                            Intent intent = new Intent(HomeActivity.this, LiveStreamActivity.class);
-                            startActivity(intent);
-                            return true;
-                        } else if (id == R.id.action_note) {
-                            Intent intent = new Intent(HomeActivity.this, CreateNoteActivity.class);
-                            startActivity(intent);
-                            return true;
-                        } else if (id == R.id.action_ai) {
-                            Intent intent = new Intent(HomeActivity.this, GeminiActivity.class);
-                            startActivity(intent);
-                            return true;
-                        }
-                        return false;
-
-                    }
-                });
-
-                popupMenu.show();
-            }
-        });
-
-        create_story.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, CreateStoryActivity.class);
-            startActivity(intent);
-        });
-        create_post.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, CreatePostActivity.class);
-            startActivity(intent);
-        });
-
-
-        maxstory.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, StoryActivity.class);
-            startActivity(intent);
-        });
-        comments.setOnClickListener(v -> {
-            Intent intent = new Intent(HomeActivity.this, CommentActivity.class);
-            startActivity(intent);
-        });
-
+        PostsAdapter postsAdapter = new PostsAdapter(posts);
+        LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        postsRecyclerView.setLayoutManager(layoutManager);
+        postsRecyclerView.setAdapter(postsAdapter);
     }
 }
-
-
-

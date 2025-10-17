@@ -3,13 +3,17 @@ package com.example.facebook;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MenuActivity extends AppCompatActivity {
 
     ImageView imgSettings, imgSearch, imgUser;
-    TextView tvUsername, tvSaved, tvFriends, tvMovies, tvFeed, tvHelp, tvPrivacy, tvLogout;
+    TextView tvUsername, tvSaved, tvFriends, tvMovies, tvFeed, tvLogout;
+
+    LinearLayout tvHelp, tvPrivacy;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

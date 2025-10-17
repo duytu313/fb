@@ -48,6 +48,7 @@
         <activity android:name=".GeminiActivity" android:exported="false" />
         <activity android:name=".LiveStreamActivity"  android:exported="false"/>
         <activity android:name=".CommentActivity"  android:exported="false"/>
+        <activity android:name=".StoryDetailActivity"  android:exported="false"/>
 
 
     </application>

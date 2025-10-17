@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\714c1e2aa32ad6e4eabb5714639d4404\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\tudo9\.gradle\caches\8.13\transforms\de060fc26e5a60192fa7096dc24fe627\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\tudo9\.gradle\caches\8.13\transforms\d163e066ce120e08825601efeb32fe3c\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
@@ -58,8 +58,8 @@ ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:7:5-53:19
-INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:7:5-53:19
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:7:5-54:19
+INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:7:5-54:19
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\714c1e2aa32ad6e4eabb5714639d4404\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\714c1e2aa32ad6e4eabb5714639d4404\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\tudo9\.gradle\caches\8.13\transforms\de060fc26e5a60192fa7096dc24fe627\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -250,6 +250,12 @@ ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidMa
 		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:52-76
 	android:name
 		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:19-50
+activity#com.example.facebook.StoryDetailActivity
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:9-82
+	android:exported
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:56-80
+	android:name
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:19-54
 uses-sdk
 INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml

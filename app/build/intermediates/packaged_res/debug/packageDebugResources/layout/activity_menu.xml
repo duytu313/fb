@@ -263,6 +263,7 @@
             android:textStyle="bold"/>
 
         <LinearLayout
+            android:id="@+id/tvHelp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal"
@@ -276,7 +277,7 @@
                 android:src="@drawable/question"/>
 
             <TextView
-                android:id="@+id/tvHelp"
+
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -292,6 +293,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/tvPrivacy"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal"
@@ -305,7 +307,7 @@
                 android:src="@drawable/settings"/>
 
             <TextView
-                android:id="@+id/tvPrivacy"
+
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

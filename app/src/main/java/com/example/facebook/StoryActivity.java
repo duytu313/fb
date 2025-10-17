@@ -5,13 +5,15 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class StoryActivity extends AppCompatActivity {
 
     ProgressBar storyProgress;
-    ImageView btnClose;
+    ImageView storyImageView, btnClose;
+    TextView userName;
 
     private Handler handler = new Handler();
     private int progressStatus = 0;
@@ -19,7 +21,7 @@ public class StoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_story);
+        setContentView(R.layout.activity_story_detail);
 
 
         getWindow().getDecorView().setSystemUiVisibility(
@@ -27,9 +29,19 @@ public class StoryActivity extends AppCompatActivity {
         );
 
         storyProgress = findViewById(R.id.storyProgress);
+        storyImageView = findViewById(R.id.storyImage);
         btnClose = findViewById(R.id.btn_close);
+        userName = findViewById(R.id.storyUserName);
+
+
+        int imageRes = getIntent().getIntExtra("storyImage", 0);
+        String name = getIntent().getStringExtra("storyName");
+
+        storyImageView.setImageResource(imageRes);
+        userName.setText(name);
 
         btnClose.setOnClickListener(v -> finish());
+
 
         startStoryTimer();
     }
@@ -40,7 +52,6 @@ public class StoryActivity extends AppCompatActivity {
             while (progressStatus < 100) {
                 progressStatus += 1;
                 handler.post(() -> storyProgress.setProgress(progressStatus));
-
                 try {
                     Thread.sleep(50);
                 } catch (InterruptedException e) {

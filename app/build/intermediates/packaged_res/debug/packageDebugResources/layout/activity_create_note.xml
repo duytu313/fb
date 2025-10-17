@@ -1,37 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:fillViewport="true"
     android:background="#FFFFFF"
-    android:padding="16dp"
     tools:context=".CreateNoteActivity">
 
-
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center_vertical">
-
+        android:padding="16dp">
         <ImageView
             android:id="@+id/btn_back"
             android:layout_width="28dp"
             android:layout_height="28dp"
             android:src="@drawable/exit"
-            android:contentDescription="Quay lại" />
+            android:contentDescription="Quay lại"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:layout_width="0dp"
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="Ghi chú mới"
-            android:textAlignment="center"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textColor="#000" />
+            android:textColor="#000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/btn_back"
+            app:layout_constraintBottom_toBottomOf="@id/btn_back" />
 
         <TextView
             android:id="@+id/btn_save"
@@ -39,39 +40,38 @@
             android:layout_height="wrap_content"
             android:text="Chia sẻ"
             android:textColor="#1976D2"
-            android:textSize="16sp" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="60dp">
-
-
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/btn_back"
+            app:layout_constraintBottom_toBottomOf="@id/btn_back" />
         <ImageView
             android:id="@+id/image_user"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/user"
-            android:layout_marginBottom="20dp"
-            android:contentDescription="Ảnh người dùng" />
-
-
+            android:layout_marginTop="60dp"
+            android:src="@drawable/img1"
+            android:background="@drawable/circle_shape"
+            android:scaleType="centerCrop"
+            android:clipToOutline="true"
+            android:contentDescription="Ảnh người dùng"
+            app:layout_constraintTop_toBottomOf="@id/btn_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
         <EditText
             android:id="@+id/textName"
-            android:layout_width="250dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:hint="Chia sẻ suy nghĩ..."
             android:textColor="@android:color/black"
             android:textSize="18sp"
             android:gravity="center"
-            android:background="@drawable/edittext_bg" />
-
-
+            android:background="@drawable/edittext_bg"
+            android:paddingVertical="8dp"
+            app:layout_constraintTop_toBottomOf="@id/image_user"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" />
         <TextView
             android:id="@+id/textCount"
             android:layout_width="wrap_content"
@@ -79,15 +79,20 @@
             android:text="0/60"
             android:textSize="16sp"
             android:textColor="#999999"
-            android:layout_marginTop="12dp" />
-
-
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@id/textName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
         <LinearLayout
+            android:id="@+id/button_row"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="24dp"
-            android:gravity="center">
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/textCount"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
 
             <ImageView
                 android:id="@+id/btn_music"
@@ -104,6 +109,6 @@
                 android:src="@drawable/smiling"
                 android:contentDescription="Cảm xúc" />
         </LinearLayout>
-    </LinearLayout>
 
-</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
