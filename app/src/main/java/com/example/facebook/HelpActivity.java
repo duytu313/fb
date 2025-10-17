@@ -1,18 +1,16 @@
 package com.example.facebook;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class HelpActivity extends AppCompatActivity {
 
     private ImageView imgBack;
-    private LinearLayout faq1, faq2, faq3;
+    private ConstraintLayout faq1, faq2, faq3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,9 +22,7 @@ public class HelpActivity extends AppCompatActivity {
         faq2 = findViewById(R.id.faq2);
         faq3 = findViewById(R.id.faq3);
 
-
         imgBack.setOnClickListener(v -> finish());
-
 
         faq1.setOnClickListener(v ->
                 Toast.makeText(HelpActivity.this, "Trả lời FAQ 1", Toast.LENGTH_SHORT).show());
