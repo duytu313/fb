@@ -1,12 +1,16 @@
 package com.example.facebook;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
 import java.util.List;
 
 public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostViewHolder> {
@@ -20,6 +24,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostViewHold
     public static class PostViewHolder extends RecyclerView.ViewHolder {
         ImageView userAvatar, postImage;
         TextView userName, content;
+        LinearLayout commentsLayout;
 
         public PostViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -27,6 +32,7 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostViewHold
             userName = itemView.findViewById(R.id.postUserName);
             content = itemView.findViewById(R.id.postContent);
             postImage = itemView.findViewById(R.id.postImage);
+            commentsLayout = itemView.findViewById(R.id.comments);
         }
     }
 
@@ -41,10 +47,23 @@ public class PostsAdapter extends RecyclerView.Adapter<PostsAdapter.PostViewHold
     @Override
     public void onBindViewHolder(@NonNull PostViewHolder holder, int position) {
         Post post = posts.get(position);
+
+
         holder.userAvatar.setImageResource(post.getUserAvatar());
         holder.userName.setText(post.getUserName());
         holder.content.setText(post.getContent());
         holder.postImage.setImageResource(post.getPostImage());
+
+        holder.commentsLayout.setOnClickListener(v -> {
+            Intent intent = new Intent(v.getContext(), CommentActivity.class);
+
+
+            intent.putExtra("userName", post.getUserName());
+            intent.putExtra("content", post.getContent());
+            intent.putExtra("postImage", post.getPostImage());
+
+            v.getContext().startActivity(intent);
+        });
     }
 
     @Override

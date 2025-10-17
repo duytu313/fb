@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-59:16
+INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-59:16
+INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-59:16
+INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:1-59:16
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\714c1e2aa32ad6e4eabb5714639d4404\transformed\material-1.13.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\tudo9\.gradle\caches\8.13\transforms\de060fc26e5a60192fa7096dc24fe627\transformed\constraintlayout-2.2.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] C:\Users\tudo9\.gradle\caches\8.13\transforms\d163e066ce120e08825601efeb32fe3c\transformed\appcompat-resources-1.7.1\AndroidManifest.xml:2:1-7:12
@@ -54,12 +54,12 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\tudo9\.
 	xmlns:android
 		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:7:5-54:19
-INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:7:5-54:19
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:8:5-57:15
+INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:8:5-57:15
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\714c1e2aa32ad6e4eabb5714639d4404\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\714c1e2aa32ad6e4eabb5714639d4404\transformed\material-1.13.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] C:\Users\tudo9\.gradle\caches\8.13\transforms\de060fc26e5a60192fa7096dc24fe627\transformed\constraintlayout-2.2.1\AndroidManifest.xml:7:5-20
@@ -81,181 +81,185 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\tu
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\9eea41b319021a06ed35e45c6d7c2d7f\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:13:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:11:9-54
 	android:roundIcon
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:13:9-47
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:14:9-47
 	android:icon
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:11:9-42
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:12:9-42
 	android:allowBackup
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:15:9-46
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:16:9-46
+	android:networkSecurityConfig
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:19:5-65
 	android:dataExtractionRules
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:9:9-65
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:10:9-65
+	android:usesCleartextTraffic
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:18:5-40
 activity#com.example.facebook.MainActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:16:9-24:20
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:21:5-28:16
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:18:13-36
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:23:9-32
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:22:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:24:9-27:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:25:13-65
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:25:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:13-73
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:23-70
 activity#com.example.facebook.RegisterActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:9-79
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:5-75
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:52-76
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:48-72
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:19-51
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:15-47
 activity#com.example.facebook.ForgotPasswordActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:27:9-85
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:5-81
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:27:58-82
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:54-78
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:27:19-57
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:15-53
 activity#com.example.facebook.ResetPasswordActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:28:9-84
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:5-80
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:28:57-81
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:53-77
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:28:19-56
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:15-52
 activity#com.example.facebook.HomeActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:29:9-75
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:5-71
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:29:48-72
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:44-68
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:15-43
 activity#com.example.facebook.NotificationsActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:9-84
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:5-80
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:57-81
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:53-77
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:19-56
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:15-52
 activity#com.example.facebook.FriendsActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:9-78
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:5-74
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:51-75
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:47-71
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:19-50
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:15-46
 activity#com.example.facebook.VideoActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:9-76
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:5-72
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:49-73
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:45-69
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:19-48
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:15-44
 activity#com.example.facebook.MenuActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:9-75
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:5-71
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:48-72
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:44-68
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:19-47
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:15-43
 activity#com.example.facebook.SearchActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:9-77
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:5-73
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:50-74
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:46-70
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:19-49
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:15-45
 activity#com.example.facebook.SettingsActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:9-79
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:5-75
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:52-76
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:48-72
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:19-51
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:15-47
 activity#com.example.facebook.SavedPostsActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:9-81
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:5-77
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:54-78
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:50-74
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:19-53
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:15-49
 activity#com.example.facebook.PrivacyActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:9-78
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:5-74
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:51-75
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:47-71
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:19-50
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:15-46
 activity#com.example.facebook.MessengersActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:9-81
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:5-77
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:54-78
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:50-74
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:19-53
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:15-49
 activity#com.example.facebook.ProfileActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:9-78
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:5-74
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:51-75
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:47-71
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:19-50
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:15-46
 activity#com.example.facebook.HelpActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:9-75
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:5-71
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:48-72
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:44-68
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:19-47
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:15-43
 activity#com.example.facebook.CreateStoryActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:9-82
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:45:5-78
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:55-79
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:45:51-75
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:19-54
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:45:15-50
 activity#com.example.facebook.CreatePostActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:9-81
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:46:5-77
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:54-78
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:46:50-74
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:19-53
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:46:15-49
 activity#com.example.facebook.CreateNoteActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:9-81
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:47:5-77
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:54-78
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:47:50-74
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:19-53
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:47:15-49
 activity#com.example.facebook.CreateFilmActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:9-81
-	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:54-78
-	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:19-53
-activity#com.example.facebook.StoryActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:45:9-47:66
-	android:theme
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:47:13-63
-	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:46:13-42
-activity#com.example.facebook.GeminiActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:9-77
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:5-77
 	android:exported
 		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:50-74
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:19-49
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:15-49
+activity#com.example.facebook.StoryActivity
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:49:5-51:62
+	android:theme
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:9-59
+	android:name
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:9-38
+activity#com.example.facebook.ChatGPTActivity
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:52:5-74
+	android:exported
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:52:47-71
+	android:name
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:52:15-46
 activity#com.example.facebook.LiveStreamActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:49:9-81
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:53:5-77
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:49:55-79
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:53:50-74
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:49:19-53
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:53:15-49
 activity#com.example.facebook.CommentActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:9-78
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:54:5-74
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:52-76
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:54:47-71
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:19-50
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:54:15-46
 activity#com.example.facebook.StoryDetailActivity
-ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:9-82
+ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:55:5-78
 	android:exported
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:56-80
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:55:51-75
 	android:name
-		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:19-54
+		ADDED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:55:15-50
 uses-sdk
 INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml

@@ -68,6 +68,10 @@
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\img21.jpg"
     },
     {
+        "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_chat_output_bg.xml.flat",
+        "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\chat_output_bg.xml"
+    },
+    {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_surprised.png.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\surprised.png"
     },
@@ -142,6 +146,10 @@
     {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\raw_sample_video.mp4.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\raw\\sample_video.mp4"
+    },
+    {
+        "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_input_bg.xml.flat",
+        "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\input_bg.xml"
     },
     {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -264,6 +272,10 @@
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\reel.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/layout_item_comment.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/item_comment.xml"
+    },
+    {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\layout_activity_reels.xml.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\layout\\activity_reels.xml"
     },
@@ -302,6 +314,10 @@
     {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_more.png.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\more.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_comment.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_comment.xml"
     },
     {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_play.png.flat",
@@ -350,10 +366,6 @@
     {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_love.png.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\love.png"
-    },
-    {
-        "merged": "com.example.facebook.app-debug-35:/layout_activity_menu.xml.flat",
-        "source": "com.example.facebook.app-main-37:/layout/activity_menu.xml"
     },
     {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_tag.png.flat",
@@ -444,10 +456,6 @@
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\img20.jpg"
     },
     {
-        "merged": "com.example.facebook.app-debug-35:/layout_activity_story_detail.xml.flat",
-        "source": "com.example.facebook.app-main-37:/layout/activity_story_detail.xml"
-    },
-    {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_white.jpg.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\white.jpg"
     },
@@ -488,6 +496,10 @@
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\facebook.png"
     },
     {
+        "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_title_background.xml.flat",
+        "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\drawable\\title_background.xml"
+    },
+    {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\layout_activity_create_post.xml.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\layout\\activity_create_post.xml"
     },
@@ -524,6 +536,10 @@
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\layout\\activity_create_story.xml"
     },
     {
+        "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\layout_activity_chatgpt.xml.flat",
+        "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\layout\\activity_chatgpt.xml"
+    },
+    {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -542,6 +558,10 @@
     {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\layout_activity_forgot_password.xml.flat",
         "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-main-37:\\xml\\network_security_config.xml"
     },
     {
         "merged": "C:\\Users\\tudo9\\.gradle\\daemon\\8.13\\com.example.facebook.app-debug-35:\\drawable_graduation.png.flat",

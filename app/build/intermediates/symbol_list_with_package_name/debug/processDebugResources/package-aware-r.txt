@@ -3561,6 +3561,7 @@ drawable button_background
 drawable buttons_background
 drawable camera
 drawable chat
+drawable chat_output_bg
 drawable circle_bg_white
 drawable circle_shape
 drawable clapper
@@ -3632,6 +3633,7 @@ drawable img6
 drawable img7
 drawable img8
 drawable img9
+drawable input_bg
 drawable instagram
 drawable like
 drawable location
@@ -3741,6 +3743,7 @@ drawable story_progress_bar
 drawable surprised
 drawable tag
 drawable test_level_drawable
+drawable title_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user
@@ -3911,6 +3914,10 @@ id clockwise
 id closest
 id collapseActionView
 id comment
+id comment_avatar
+id comment_content
+id comment_list
+id comment_user
 id comments
 id compress
 id confirm_button
@@ -4218,8 +4225,6 @@ id postLayout
 id postUserAvatar
 id postUserName
 id post_content
-id post_image
-id post_user
 id postsRecyclerView
 id pressed
 id privacy
@@ -4558,6 +4563,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chatgpt
 layout activity_comment
 layout activity_create_film
 layout activity_create_note
@@ -4565,7 +4571,6 @@ layout activity_create_post
 layout activity_create_story
 layout activity_forgot_password
 layout activity_friends
-layout activity_gemini
 layout activity_help
 layout activity_home
 layout activity_login
@@ -4599,6 +4604,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_comment
 layout item_post
 layout item_story
 layout m3_alert_dialog
@@ -6244,3 +6250,4 @@ xml m3_button_group_child_size_change
 xml m3_split_button_inner_corner_size_state_list
 xml m3expressive_button_shape_state_list
 xml m3expressive_connected_buttons_inner_corner_size_state_list
+xml network_security_config

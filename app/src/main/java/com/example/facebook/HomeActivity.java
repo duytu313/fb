@@ -17,8 +17,8 @@ import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private TextView textView;
-    private ImageView more, search, message;
+    private TextView textView,create_post;
+    private ImageView more, search, message,profile;
     private BottomNavigationView bottomNavigationView;
 
     private RecyclerView storiesRecyclerView, postsRecyclerView;
@@ -40,10 +40,22 @@ public class HomeActivity extends AppCompatActivity {
         more = findViewById(R.id.more);
         search = findViewById(R.id.search);
         message = findViewById(R.id.message);
+        profile = findViewById(R.id.profile);
+        create_post = findViewById(R.id.create_post);
 
         bottomNavigationView = findViewById(R.id.bottomNavigation);
         storiesRecyclerView = findViewById(R.id.storiesRecyclerView);
         postsRecyclerView = findViewById(R.id.postsRecyclerView);
+
+
+        profile.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, ProfileActivity.class);
+            startActivity(intent);
+        });
+        create_post.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, CreatePostActivity.class);
+            startActivity(intent);
+        });
     }
 
     private void setupHeaderClicks() {
@@ -67,7 +79,7 @@ public class HomeActivity extends AppCompatActivity {
                 } else if (id == R.id.action_note) {
                     startActivity(new Intent(this, CreateNoteActivity.class));
                 } else if (id == R.id.action_ai) {
-                    startActivity(new Intent(this, GeminiActivity.class));
+                    startActivity(new Intent(this,ChatGPTActivity.class));
                 }
                 return true;
             });
@@ -94,7 +106,7 @@ public class HomeActivity extends AppCompatActivity {
         stories.add(new Story(R.drawable.img3, "Nguyễn Văn B", false));
         stories.add(new Story(R.drawable.img6, "Nguyễn Văn C", false));
 
-        StoriesAdapter storiesAdapter = new StoriesAdapter(stories, this); // truyền context để xử lý click
+        StoriesAdapter storiesAdapter = new StoriesAdapter(stories, this);
         LinearLayoutManager layoutManager =
                 new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         storiesRecyclerView.setLayoutManager(layoutManager);

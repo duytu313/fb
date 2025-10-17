@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="36" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:4:5-67
-11-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:6:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.17.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\9eea41b319021a06ed35e45c6d7c2d7f\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
@@ -24,255 +24,259 @@
 17-->[androidx.core:core:1.17.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\9eea41b319021a06ed35e45c6d7c2d7f\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:7:5-54:19
+19-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:8:5-57:15
 20        android:allowBackup="true"
-20-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:8:9-35
+20-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:9:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.17.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\9eea41b319021a06ed35e45c6d7c2d7f\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
 22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:9:9-65
+22-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:10:9-65
 23        android:debuggable="true"
 24        android:extractNativeLibs="false"
 25        android:fullBackupContent="@xml/backup_rules"
-25-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:10:9-54
+25-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:11:9-54
 26        android:icon="@drawable/facebook"
-26-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:11:9-42
+26-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:12:9-42
 27        android:label="@string/app_name"
-27-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:12:9-41
-28        android:roundIcon="@drawable/facebook"
-28-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:13:9-47
-29        android:supportsRtl="true"
-29-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.Facebook" >
-31-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:15:9-46
-32        <activity
-32-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:16:9-24:20
-33            android:name="com.example.facebook.MainActivity"
-33-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:17:13-41
-34            android:exported="true" >
-34-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:18:13-36
-35            <intent-filter>
-35-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:19:13-23:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:20:17-69
-36-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:20:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:22:17-77
-38-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:22:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:9-79
-42            android:name="com.example.facebook.RegisterActivity"
-42-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:19-51
-43            android:exported="false" />
-43-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:52-76
-44        <activity
-44-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:27:9-85
-45            android:name="com.example.facebook.ForgotPasswordActivity"
-45-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:27:19-57
-46            android:exported="false" />
-46-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:27:58-82
-47        <activity
-47-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:28:9-84
-48            android:name="com.example.facebook.ResetPasswordActivity"
-48-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:28:19-56
-49            android:exported="false" />
-49-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:28:57-81
-50        <activity
-50-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:29:9-75
-51            android:name="com.example.facebook.HomeActivity"
-51-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:29:19-47
-52            android:exported="false" />
-52-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:29:48-72
-53        <activity
-53-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:9-84
-54            android:name="com.example.facebook.NotificationsActivity"
-54-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:19-56
-55            android:exported="false" />
-55-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:57-81
-56        <activity
-56-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:9-78
-57            android:name="com.example.facebook.FriendsActivity"
-57-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:19-50
-58            android:exported="false" />
-58-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:51-75
-59        <activity
-59-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:9-76
-60            android:name="com.example.facebook.VideoActivity"
-60-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:19-48
-61            android:exported="false" />
-61-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:49-73
-62        <activity
-62-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:9-75
-63            android:name="com.example.facebook.MenuActivity"
-63-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:19-47
-64            android:exported="false" />
-64-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:48-72
-65        <activity
-65-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:9-77
-66            android:name="com.example.facebook.SearchActivity"
-66-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:19-49
-67            android:exported="false" />
-67-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:50-74
-68        <activity
-68-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:9-79
-69            android:name="com.example.facebook.SettingsActivity"
-69-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:19-51
-70            android:exported="false" />
-70-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:52-76
-71        <activity
-71-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:9-81
-72            android:name="com.example.facebook.SavedPostsActivity"
-72-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:19-53
-73            android:exported="false" />
-73-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:54-78
-74        <activity
-74-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:9-78
-75            android:name="com.example.facebook.PrivacyActivity"
-75-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:19-50
-76            android:exported="false" />
-76-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:51-75
-77        <activity
-77-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:9-81
-78            android:name="com.example.facebook.MessengersActivity"
-78-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:19-53
-79            android:exported="false" />
-79-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:54-78
-80        <activity
-80-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:9-78
-81            android:name="com.example.facebook.ProfileActivity"
-81-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:19-50
-82            android:exported="false" />
-82-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:51-75
-83        <activity
-83-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:9-75
-84            android:name="com.example.facebook.HelpActivity"
-84-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:19-47
-85            android:exported="false" />
-85-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:48-72
-86        <activity
-86-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:9-82
-87            android:name="com.example.facebook.CreateStoryActivity"
-87-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:19-54
-88            android:exported="false" />
-88-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:55-79
-89        <activity
-89-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:9-81
-90            android:name="com.example.facebook.CreatePostActivity"
-90-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:19-53
-91            android:exported="false" />
-91-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:54-78
-92        <activity
-92-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:9-81
-93            android:name="com.example.facebook.CreateNoteActivity"
-93-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:19-53
-94            android:exported="false" />
-94-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:54-78
-95        <activity
-95-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:9-81
-96            android:name="com.example.facebook.CreateFilmActivity"
-96-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:19-53
-97            android:exported="false" />
-97-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:54-78
-98        <activity
-98-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:45:9-47:66
-99            android:name="com.example.facebook.StoryActivity"
-99-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:46:13-42
-100            android:theme="@style/Theme.AppCompat.NoActionBar" />
-100-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:47:13-63
-101        <activity
-101-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:9-77
-102            android:name="com.example.facebook.GeminiActivity"
-102-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:19-49
-103            android:exported="false" />
-103-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:50-74
-104        <activity
-104-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:49:9-81
-105            android:name="com.example.facebook.LiveStreamActivity"
-105-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:49:19-53
-106            android:exported="false" />
-106-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:49:55-79
-107        <activity
-107-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:9-78
-108            android:name="com.example.facebook.CommentActivity"
-108-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:19-50
-109            android:exported="false" />
-109-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:52-76
-110        <activity
-110-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:9-82
-111            android:name="com.example.facebook.StoryDetailActivity"
-111-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:19-54
-112            android:exported="false" />
-112-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:56-80
-113
-114        <provider
-114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-115            android:name="androidx.startup.InitializationProvider"
-115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-116            android:authorities="com.example.facebook.androidx-startup"
-116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-117            android:exported="false" >
-117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-118            <meta-data
-118-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-120                android:value="androidx.startup" />
-120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-121            <meta-data
-121-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\tudo9\.gradle\caches\8.13\transforms\e9bab55e2dc1db19a1cfc01161099ada\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-122-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\tudo9\.gradle\caches\8.13\transforms\e9bab55e2dc1db19a1cfc01161099ada\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-123                android:value="androidx.startup" />
-123-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\tudo9\.gradle\caches\8.13\transforms\e9bab55e2dc1db19a1cfc01161099ada\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-124            <meta-data
-124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-125                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-126                android:value="androidx.startup" />
-126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-127        </provider>
-128
-129        <receiver
-129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-130            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-131            android:directBootAware="false"
-131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-132            android:enabled="true"
-132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-133            android:exported="true"
-133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-134            android:permission="android.permission.DUMP" >
-134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-135            <intent-filter>
-135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-136                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-137            </intent-filter>
-138            <intent-filter>
-138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-139                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-139-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-140            </intent-filter>
-141            <intent-filter>
-141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-142                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-142-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-142-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-143            </intent-filter>
-144            <intent-filter>
-144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-145                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-145-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-145-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-146            </intent-filter>
-147        </receiver>
-148    </application>
-149
-150</manifest>
+27-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:13:9-41
+28        android:networkSecurityConfig="@xml/network_security_config"
+28-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:19:5-65
+29        android:roundIcon="@drawable/facebook"
+29-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:14:9-47
+30        android:supportsRtl="true"
+30-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Facebook"
+32-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:16:9-46
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:18:5-40
+34        <activity
+34-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:21:5-28:16
+35            android:name="com.example.facebook.MainActivity"
+35-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:22:9-37
+36            android:exported="true" >
+36-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:23:9-32
+37            <intent-filter>
+37-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:24:9-27:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:25:13-65
+38-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:25:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:13-73
+40-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:26:23-70
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:5-75
+44            android:name="com.example.facebook.RegisterActivity"
+44-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:15-47
+45            android:exported="false" />
+45-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:30:48-72
+46        <activity
+46-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:5-81
+47            android:name="com.example.facebook.ForgotPasswordActivity"
+47-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:15-53
+48            android:exported="false" />
+48-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:31:54-78
+49        <activity
+49-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:5-80
+50            android:name="com.example.facebook.ResetPasswordActivity"
+50-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:15-52
+51            android:exported="false" />
+51-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:32:53-77
+52        <activity
+52-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:5-71
+53            android:name="com.example.facebook.HomeActivity"
+53-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:15-43
+54            android:exported="false" />
+54-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:33:44-68
+55        <activity
+55-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:5-80
+56            android:name="com.example.facebook.NotificationsActivity"
+56-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:15-52
+57            android:exported="false" />
+57-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:34:53-77
+58        <activity
+58-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:5-74
+59            android:name="com.example.facebook.FriendsActivity"
+59-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:15-46
+60            android:exported="false" />
+60-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:35:47-71
+61        <activity
+61-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:5-72
+62            android:name="com.example.facebook.VideoActivity"
+62-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:15-44
+63            android:exported="false" />
+63-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:36:45-69
+64        <activity
+64-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:5-71
+65            android:name="com.example.facebook.MenuActivity"
+65-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:15-43
+66            android:exported="false" />
+66-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:37:44-68
+67        <activity
+67-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:5-73
+68            android:name="com.example.facebook.SearchActivity"
+68-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:15-45
+69            android:exported="false" />
+69-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:38:46-70
+70        <activity
+70-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:5-75
+71            android:name="com.example.facebook.SettingsActivity"
+71-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:15-47
+72            android:exported="false" />
+72-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:39:48-72
+73        <activity
+73-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:5-77
+74            android:name="com.example.facebook.SavedPostsActivity"
+74-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:15-49
+75            android:exported="false" />
+75-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:40:50-74
+76        <activity
+76-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:5-74
+77            android:name="com.example.facebook.PrivacyActivity"
+77-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:15-46
+78            android:exported="false" />
+78-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:41:47-71
+79        <activity
+79-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:5-77
+80            android:name="com.example.facebook.MessengersActivity"
+80-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:15-49
+81            android:exported="false" />
+81-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:42:50-74
+82        <activity
+82-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:5-74
+83            android:name="com.example.facebook.ProfileActivity"
+83-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:15-46
+84            android:exported="false" />
+84-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:43:47-71
+85        <activity
+85-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:5-71
+86            android:name="com.example.facebook.HelpActivity"
+86-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:15-43
+87            android:exported="false" />
+87-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:44:44-68
+88        <activity
+88-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:45:5-78
+89            android:name="com.example.facebook.CreateStoryActivity"
+89-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:45:15-50
+90            android:exported="false" />
+90-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:45:51-75
+91        <activity
+91-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:46:5-77
+92            android:name="com.example.facebook.CreatePostActivity"
+92-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:46:15-49
+93            android:exported="false" />
+93-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:46:50-74
+94        <activity
+94-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:47:5-77
+95            android:name="com.example.facebook.CreateNoteActivity"
+95-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:47:15-49
+96            android:exported="false" />
+96-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:47:50-74
+97        <activity
+97-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:5-77
+98            android:name="com.example.facebook.CreateFilmActivity"
+98-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:15-49
+99            android:exported="false" />
+99-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:48:50-74
+100        <activity
+100-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:49:5-51:62
+101            android:name="com.example.facebook.StoryActivity"
+101-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:50:9-38
+102            android:theme="@style/Theme.AppCompat.NoActionBar" />
+102-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:51:9-59
+103        <activity
+103-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:52:5-74
+104            android:name="com.example.facebook.ChatGPTActivity"
+104-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:52:15-46
+105            android:exported="false" />
+105-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:52:47-71
+106        <activity
+106-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:53:5-77
+107            android:name="com.example.facebook.LiveStreamActivity"
+107-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:53:15-49
+108            android:exported="false" />
+108-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:53:50-74
+109        <activity
+109-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:54:5-74
+110            android:name="com.example.facebook.CommentActivity"
+110-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:54:15-46
+111            android:exported="false" />
+111-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:54:47-71
+112        <activity
+112-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:55:5-78
+113            android:name="com.example.facebook.StoryDetailActivity"
+113-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:55:15-50
+114            android:exported="false" />
+114-->C:\Users\tudo9\AndroidStudioProjects\facebook2\app\src\main\AndroidManifest.xml:55:51-75
+115
+116        <provider
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+117            android:name="androidx.startup.InitializationProvider"
+117-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+118            android:authorities="com.example.facebook.androidx-startup"
+118-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+119            android:exported="false" >
+119-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+120            <meta-data
+120-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+121-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+122                android:value="androidx.startup" />
+122-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\2b06af9450201ea1ca709be1fd6905ef\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+123            <meta-data
+123-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\tudo9\.gradle\caches\8.13\transforms\e9bab55e2dc1db19a1cfc01161099ada\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+124-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\tudo9\.gradle\caches\8.13\transforms\e9bab55e2dc1db19a1cfc01161099ada\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+125                android:value="androidx.startup" />
+125-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\tudo9\.gradle\caches\8.13\transforms\e9bab55e2dc1db19a1cfc01161099ada\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+126            <meta-data
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+128                android:value="androidx.startup" />
+128-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+129        </provider>
+130
+131        <receiver
+131-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+132            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+133            android:directBootAware="false"
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+134            android:enabled="true"
+134-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+135            android:exported="true"
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+136            android:permission="android.permission.DUMP" >
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+138                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+138-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+141                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+141-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+142            </intent-filter>
+143            <intent-filter>
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+144                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+145            </intent-filter>
+146            <intent-filter>
+146-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+147                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+147-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\tudo9\.gradle\caches\8.13\transforms\c7ca2d5dea173910185c725a82355bc8\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+148            </intent-filter>
+149        </receiver>
+150    </application>
+151
+152</manifest>
