@@ -47,6 +47,7 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity android:name=".GeminiActivity" android:exported="false" />
         <activity android:name=".LiveStreamActivity"  android:exported="false"/>
+        <activity android:name=".CommentActivity"  android:exported="false"/>
 
 
     </application>

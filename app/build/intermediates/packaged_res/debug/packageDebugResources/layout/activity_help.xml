@@ -26,8 +26,6 @@
             android:layout_marginStart="10dp"
             android:textColor="#000"/>
     </LinearLayout>
-
-    <!-- FAQ items -->
     <LinearLayout
         android:id="@+id/faq1"
         android:layout_width="match_parent"
@@ -43,7 +41,6 @@
             android:textSize="16sp"
             android:textColor="#000"/>
     </LinearLayout>
-
     <LinearLayout
         android:id="@+id/faq2"
         android:layout_width="match_parent"
@@ -59,7 +56,6 @@
             android:textSize="16sp"
             android:textColor="#000"/>
     </LinearLayout>
-
     <LinearLayout
         android:id="@+id/faq3"
         android:layout_width="match_parent"
@@ -75,5 +71,4 @@
             android:textSize="16sp"
             android:textColor="#000"/>
     </LinearLayout>
-
 </LinearLayout>

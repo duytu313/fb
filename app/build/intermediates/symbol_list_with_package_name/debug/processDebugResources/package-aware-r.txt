@@ -3561,6 +3561,7 @@ drawable button_background
 drawable buttons_background
 drawable camera
 drawable chat
+drawable circle_shape
 drawable clapper
 drawable comments
 drawable design_fab_background
@@ -3578,8 +3579,10 @@ drawable facebooklogo
 drawable feed
 drawable friend
 drawable friends
+drawable gif
 drawable graduation
 drawable grandmother
+drawable help
 drawable home
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3606,10 +3609,33 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search
 drawable ic_search_black_24
 drawable image
+drawable img1
+drawable img10
+drawable img11
+drawable img12
+drawable img13
+drawable img14
+drawable img15
+drawable img16
+drawable img17
+drawable img18
+drawable img19
+drawable img2
+drawable img20
+drawable img21
+drawable img22
+drawable img3
+drawable img4
+drawable img5
+drawable img6
+drawable img7
+drawable img8
+drawable img9
 drawable instagram
 drawable like
 drawable location
 drawable locations
+drawable logout
 drawable love
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3706,6 +3732,7 @@ drawable recycle
 drawable reel
 drawable sad
 drawable search
+drawable send
 drawable settings
 drawable share
 drawable smiling
@@ -3880,6 +3907,8 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id comment
+id comments
 id compress
 id confirm_button
 id constraint
@@ -3988,6 +4017,7 @@ id greenScreenLayout
 id group_divider
 id grouping
 id groups
+id header
 id header_title
 id hidden
 id hide_ime_id
@@ -4037,7 +4067,6 @@ id layoutNotif3
 id layoutNotif4
 id layoutNotifications
 id layoutPrivacy
-id layoutToday3
 id left
 id leftToRight
 id legacy
@@ -4176,6 +4205,7 @@ id position
 id post1
 id post2
 id post3
+id postContainer
 id postLayout
 id post_content
 id post_image
@@ -4230,6 +4260,7 @@ id select_dialog_listview
 id selected
 id selected_image
 id selection_type
+id send_comment
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -4272,6 +4303,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id switchNotifications
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -4361,6 +4393,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id userInfo
 id userName
 id username
 id vertical
@@ -4501,6 +4534,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_comment
 layout activity_create_film
 layout activity_create_note
 layout activity_create_post
@@ -5077,6 +5111,8 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style FeatureItem
+style FeatureText
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text

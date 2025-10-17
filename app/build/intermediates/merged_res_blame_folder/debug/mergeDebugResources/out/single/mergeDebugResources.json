@@ -16,6 +16,10 @@
         "source": "com.example.facebook.app-main-37:/drawable/emoji.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img1.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img1.jpg"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/drawable_man.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/man.png"
     },
@@ -44,12 +48,20 @@
         "source": "com.example.facebook.app-main-37:/drawable/woman.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img8.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img8.jpg"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/layout_activity_settings.xml.flat",
         "source": "com.example.facebook.app-main-37:/layout/activity_settings.xml"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_user.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/user.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img15.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img15.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_share.png.flat",
@@ -104,8 +116,20 @@
         "source": "com.example.facebook.app-main-37:/drawable/clapper.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img9.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img9.jpg"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img14.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img14.jpg"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/drawable_friend.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/friend.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img2.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img2.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_pill_background.xml.flat",
@@ -118,6 +142,10 @@
     {
         "merged": "com.example.facebook.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.facebook.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_circle_shape.xml.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/circle_shape.xml"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/layout_activity_login.xml.flat",
@@ -152,6 +180,10 @@
         "source": "com.example.facebook.app-main-37:/drawable/profile.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img6.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img6.jpg"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/drawable_like.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/like.png"
     },
@@ -162,6 +194,18 @@
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_music.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/music.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_send.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/send.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img3.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img3.jpg"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img12.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img12.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_messenger.png.flat",
@@ -208,16 +252,32 @@
         "source": "com.example.facebook.app-main-37:/drawable/grandmother.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img22.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img22.jpg"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/drawable_smiling.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/smiling.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img18.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img18.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_surprised.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/surprised.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_gif.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/gif.png"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/drawable_option.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/option.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img11.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img11.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -226,6 +286,10 @@
     {
         "merged": "com.example.facebook.app-debug-35:/layout_activity_register.xml.flat",
         "source": "com.example.facebook.app-main-37:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img4.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img4.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_play.png.flat",
@@ -264,6 +328,10 @@
         "source": "com.example.facebook.app-main-37:/drawable/love.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/layout_activity_comment.xml.flat",
+        "source": "com.example.facebook.app-main-37:/layout/activity_comment.xml"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/layout_activity_forgot_password.xml.flat",
         "source": "com.example.facebook.app-main-37:/layout/activity_forgot_password.xml"
     },
@@ -288,8 +356,16 @@
         "source": "com.example.facebook.app-main-37:/drawable/pen.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img10.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img10.jpg"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/layout_activity_menu.xml.flat",
         "source": "com.example.facebook.app-main-37:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img5.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img5.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/menu_post_options_menu.xml.flat",
@@ -298,6 +374,10 @@
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_search.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/search.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img17.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img17.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_notes.png.flat",
@@ -310,6 +390,14 @@
     {
         "merged": "com.example.facebook.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.facebook.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img20.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img20.jpg"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_help.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/help.png"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/layout_activity_gemini.xml.flat",
@@ -344,12 +432,24 @@
         "source": "com.example.facebook.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img16.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img16.jpg"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/drawable_sad.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/sad.png"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img13.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img13.jpg"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/layout_activity_create_film.xml.flat",
         "source": "com.example.facebook.app-main-37:/layout/activity_create_film.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img21.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img21.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/menu_bottom_nav_messenger.xml.flat",
@@ -364,12 +464,12 @@
         "source": "com.example.facebook.app-main-37:/drawable/location.png"
     },
     {
-        "merged": "com.example.facebook.app-debug-35:/drawable_video.png.flat",
-        "source": "com.example.facebook.app-main-37:/drawable/video.png"
-    },
-    {
         "merged": "com.example.facebook.app-debug-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.example.facebook.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_video.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/video.png"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_notifications.png.flat",
@@ -378,6 +478,10 @@
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_white.jpg.flat",
         "source": "com.example.facebook.app-main-37:/drawable/white.jpg"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img19.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img19.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_tag.png.flat",
@@ -404,6 +508,10 @@
         "source": "com.example.facebook.app-main-37:/drawable/buttons_background.xml"
     },
     {
+        "merged": "com.example.facebook.app-debug-35:/drawable_logout.png.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/logout.png"
+    },
+    {
         "merged": "com.example.facebook.app-debug-35:/drawable_exit.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/exit.png"
     },
@@ -414,6 +522,10 @@
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_locations.png.flat",
         "source": "com.example.facebook.app-main-37:/drawable/locations.png"
+    },
+    {
+        "merged": "com.example.facebook.app-debug-35:/drawable_img7.jpg.flat",
+        "source": "com.example.facebook.app-main-37:/drawable/img7.jpg"
     },
     {
         "merged": "com.example.facebook.app-debug-35:/drawable_privacy.png.flat",

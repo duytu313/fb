@@ -104,6 +104,9 @@
         <activity
             android:name="com.example.facebook.LiveStreamActivity"
             android:exported="false" />
+        <activity
+            android:name="com.example.facebook.CommentActivity"
+            android:exported="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

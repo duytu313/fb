@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -19,15 +20,17 @@ public class HomeActivity extends AppCompatActivity {
     private TextView postUser, postContent,create_post;
     private ImageView postImage,profile,search,message,more,create_story;
     private BottomNavigationView bottomNavigationView;
-    private FrameLayout maxStory;
+    private FrameLayout maxstory;
+
+    private LinearLayout comments;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-
-        maxStory = findViewById(R.id.maxstory);
+        comments = findViewById(R.id.comments);
+        maxstory = findViewById(R.id.maxstory);
         create_story = findViewById(R.id.create_story);
         create_post = findViewById(R.id.create_post);
         message = findViewById(R.id.message);
@@ -42,7 +45,7 @@ public class HomeActivity extends AppCompatActivity {
 
         postUser.setText("Nguyễn thị C");
         postContent.setText("Buổi chiều vui vẻ!");
-        postImage.setImageResource(R.drawable.grandmother);
+        postImage.setImageResource(R.drawable.img4);
 
 
         bottomNavigationView.setOnItemSelectedListener(item -> {
@@ -149,8 +152,12 @@ public class HomeActivity extends AppCompatActivity {
         });
 
 
-        maxStory.setOnClickListener(v -> {
+        maxstory.setOnClickListener(v -> {
             Intent intent = new Intent(HomeActivity.this, StoryActivity.class);
+            startActivity(intent);
+        });
+        comments.setOnClickListener(v -> {
+            Intent intent = new Intent(HomeActivity.this, CommentActivity.class);
             startActivity(intent);
         });
 
